@@ -1,0 +1,22 @@
+Crear las siguientes constantes: nombre, apellidoPaterno, apellidoMaterno, nacimiento, sexo.
+A partir de estos datos crear la siguiente estructura:
+    1. Las primeras dos letras del apellido paterno
+    2. La primer letra del apellido materno
+    3. La primer letra del nombre
+    4. año de nacimiento
+    5. mes de nacimiento
+    6. dia de nacimiento
+    7. primer letra del sexo
+    8. El resultado mostrarlo en consola en mayusculas
+ejemplo:
+
+nombre: Miguel
+apellido paterno: Chuil
+apellido materno: Martinez
+nacimiento: 15/02/2015
+sexo: Masculino
+
+Resultado: CHMM20150215M
+
+
+developer.chuil@gmail.com
