@@ -1,0 +1,35 @@
+1) Crea el siguiente objeto:
+    let vehiculo = {
+        nombre: 'jetta'
+        marca: 'volswagen',
+        color: 'negro',
+        tipo: 'deportivo',
+        precio: '15000 usd'
+    }
+    Muestra por consola la siguiente oración usando las propiedades de los objetos
+
+    "El automovil jetta, marca volswagen, tipo deportivo, tiene un precio de 15000usd";
+
+
+2) Crea un objeto llama 'Cuenta Bancaria', con las siguientes propiedades:
+    - cliente
+    - numero de Cuenta
+    - banco
+    - depositos
+    - retiros
+
+    Agrega una funcion llamada 'saldo' que realice la operación matematica de: depositos - retiros
+
+
+
+3)  Crea el siguiente objeto:
+    const factura = {
+        numero: 201,
+        cliente: 'Transportes Plus',
+        divisa: 'usd',
+        subtotal: 320.25,
+        impuesto: 75.55
+    }
+
+    - Agrega la propiedad 'total' al objeto factura
+    - Agrega el objeto 'abonos' y dentro crea 3 abonos que sean el total de la factura.
