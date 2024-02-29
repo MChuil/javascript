@@ -1,0 +1,15 @@
+1) Crear el siguiente array:
+    const months = ['Enero', 'Febrero', 'Abril', 'Julio'];
+    Completar los meses del año y arreglar posiciones. Imprimir en consola.
+
+2) Crear el siguiente array de objetos:
+    const carrito = [
+        {nombre: 'Mouse optico', precio: 10000},
+        {nombre: 'Teclado mecanico', precio: 50000},
+        {nombre: 'Celular', precio: 1000000},
+        {nombre: 'Monitor 20"', precio: 10000000},
+        {nombre: 'Audifonos', precio: 90000},
+        {nombre: 'Tablet', precio: 70000},
+    ];
+
+    Recorrer(iterar) el array para obtener el total de la compra. Imprimir el total en consola.
