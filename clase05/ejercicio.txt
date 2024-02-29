@@ -1,0 +1,12 @@
+Crear el objeto 'reproductor'
+crear las siguientes funciones dentro del objeto:
+
+- funcion 'reproducir', que debera recibir como  parametros el nombre de la canción, imprimir en consola: 'Reproduciendo la cancion (aqui poner el nombre de la canción)
+
+- funcion 'pausar', sin parametros y solo imprimir 'pausando...'
+
+- funcion 'borrar' que debera recibir como  parametros el nombre de la canción, imprimir en consola: 'Eliminando la cancion (aqui poner el nombre de la canción)
+
+- funcion 'crearPlayList', recibira como parametro el nombre de la lista de canciones, imprimir: 'Creando la play list (nombre de la lista)
+
+- function 'reproducirPlayList',  recibira como parametro el nombre de la lista de canciones, imprimir: 'Reproduciendo la play list (nombre de la lista)
