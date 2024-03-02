@@ -1,0 +1,17 @@
+Mejorar el objeto CuentaBancaria de la siguiente forma:
+
+1) No permitir retiros mayores al saldo, y mandar la leyenda 'saldo insuficiente'
+
+
+
+Preguntar por la edad del usuario y regresar un mensaje en base a los siguientes rangos
+    - de 0 a 2  | Eres un bebe
+    - 3 a 12    | Eres un niño
+    -13 a 17    | Eres un adolecente
+    -18 a 25    | Eres adulto joven
+    -26 a 40    | Eres un adulto
+    -41 a 55    | Eres un chavo ruco
+    -56 a 80    | Adulto mayor
+    - >80       | Matusalem
+
+    Validar que el usuario ingrese un numero y no un string
