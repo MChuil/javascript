@@ -1,0 +1,11 @@
+Crear la siguiente estructura html con JS
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/inicio">Inicio</a></li>
+                <li><a href="/nosotros">Nosotros</a></li>
+                <li><a href="/productos">Productos</a></li>
+                <li><a href="/contactanos">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
