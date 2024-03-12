@@ -1,9 +1,9 @@
-const pendientes = [
-    'Estudiar JavaScript', 
-    'Hacer los ejercicios de JS', 
-    'Ir Gym', 
-    'Leer un buen libro', 'Comer'
-];
+const pendientes = ['Estudiar JavaScript', 'Hacer los ejercicios de JS', 'Ir Gym', 'Leer un buen libro', 'Comer'];
+
+for(let pendiente of pendientes){
+    console.log(pendiente);
+}
+
 
 const carrito = [
     {nombre: 'Mouse optico', precio: 10000},
@@ -51,6 +51,6 @@ const auto = {
 }
 
 for(let item in auto){
-    console.log(`${auto[item]}`) // auto[motor]
+    console.log(`${item}: ${auto[item]}`)
 }
 
