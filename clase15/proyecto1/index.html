@@ -20,6 +20,7 @@
                                 <label for="">Ingresa pendiente</label>
                                 <input type="text" class="form-control" id="pendiente">
                             </div>
+                            <input type="hidden" id="id">
                             <button type="submit" class="btn btn-primary btn-sm mt-4">Guardar</button>
                         </form>
                     </div>
@@ -29,14 +30,22 @@
                 <div class="card">
                     <div class="card-body">
                         <h3 class="text-center">Mis Pendientes</h3>
-                        <ul id="pendientes">
-                        </ul>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Pendiente</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="pendientes"></tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
+    <script src="https://kit.fontawesome.com/e509e842bd.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 </html>
