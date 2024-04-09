@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promesas</title>
+</head>
+<body>
+    <h1>Promesas</h1>
+
+    <p>
+        Promesas en JavaScript
+    </p>
+
+    <p>
+        Una promesa es un objeto que producirá un valor único en algún momento en el futuro. Si la promesa tiene exito, producira el valor resuelto, pero si algo sale mal, generar una razon por la cual la promesa fallo.
+    </p>
+
+
+    <p>
+        Sintaxis:
+
+            <code>
+                function promesa(){
+                    const promise = new Promise((resolve, reject) => {
+                        const num = 2
+                        if(num % 2 ==0){
+                            resolve('Es numero par')
+                        }else{
+                            reject()
+                        }
+                    })
+                    return promise
+                }
+            </code>
+    </p>
+    <p>
+        ¿Que es la asincronia en JavaScript?
+    </p>
+    <p>
+        Es una técnica que permite al script inicar una tarea de larga duración y seguir respondiendo a otros eventos mientras esa tarea es ejecutada, en lugar de tener que esperar hasta que esa tarea haya terminado.
+    </p>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

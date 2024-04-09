@@ -10,36 +10,54 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="app.css">
     </head>
     <body>
     <header class="container pt-5">
         <h1 class="text-center">Simulador de envio de correos</h1>
     </header>
     <main class="container mt-5">
+        <div id="spinner">
+            <div class="sk-circle">
+                <div class="sk-circle1 sk-child"></div>
+                <div class="sk-circle2 sk-child"></div>
+                <div class="sk-circle3 sk-child"></div>
+                <div class="sk-circle4 sk-child"></div>
+                <div class="sk-circle5 sk-child"></div>
+                <div class="sk-circle6 sk-child"></div>
+                <div class="sk-circle7 sk-child"></div>
+                <div class="sk-circle8 sk-child"></div>
+                <div class="sk-circle9 sk-child"></div>
+                <div class="sk-circle10 sk-child"></div>
+                <div class="sk-circle11 sk-child"></div>
+                <div class="sk-circle12 sk-child"></div>
+            </div>
+        </div>
         <div class="card mx-auto" style="max-width:50%;">
-        <div class="card-header bg-primary text-white">Envio de correo</div>
-        <form id="form">
-            <div class="card-body">
-                <div class="mb-3">
-                    <label for="correo" class="form-label">Correo</label>
-                    <input type="email" class="form-control" id="correo" placeholder="Ingrese el correo destino">
-                </div>
 
-                <div class="mb-3">
-                    <label for="asunto" class="form-label">Asunto</label>
-                    <input type="text" class="form-control" id="asunto" placeholder="Asunto">
-                </div>
+            <div class="card-header bg-primary text-white">Envio de correo</div>
+            <form id="form">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Correo</label>
+                        <input type="email" class="form-control" name="correo" id="correo" placeholder="Ingrese el correo destino">
+                    </div>
 
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea  cols="30" rows="5" id="mensaje" placeholder="Escriba el mensaje" class="form-control"></textarea>
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea  cols="30" rows="5" id="mensaje" name="mensaje" placeholder="Escriba el mensaje" class="form-control"></textarea>
+                    </div>
                 </div>
-            </div>
-            <div class="card-footer text-body-secondary text-end">
-                <button type="reset" class="btn btn-danger">Cancelar</button>
-                <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button>
-            </div>
-        </form>
+                <div class="card-footer text-body-secondary text-end">
+                    <button type="reset" class="btn btn-danger" id="btnReset">Cancelar</button>
+                    <button type="submit" class="btn btn-primary" id="btnEnviar" disabled>Enviar</button>
+                </div>
+            </form>
         </div>
     </main>
 
