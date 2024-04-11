@@ -48,5 +48,3 @@ async function load(){
 }
 
 load()
-
-
